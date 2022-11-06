@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Boxes Order Form</h1>
+    <form action="" style="border: 1px solid black; padding: 20px; width: 25%">
+        <label for="">Name:</label>
+        <input type="text" name="" id="">
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="" id="">
+        <br>
+        <br>
+        <label for="address">Address:</label>
+        <textarea name="" id="" cols="20" rows="2"></textarea>
+    </form>
+    <br>
+    <br>
+
+    <!-- Table 1 -->
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Part NUmber</th>
+                <th style="width:200px">Quantity</th>
+                <th>Unit Price</th>
+                <th style="width:200px">Subtotal</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>EconoBox</td>
+                <td>LB100</td>
+                <td></td>
+                <td>R5</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Standard Box</td>
+                <td>LB200</td>
+                <td></td>
+                <td>R10</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Premium Box</td>
+                <td>LB300</td>
+                <td></td>
+                <td>R15</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Deluxe Box</td>
+                <td>LB400</td>
+                <td></td>
+                <td>R20</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Super Deluxe Box</td>
+                <td>LB500</td>
+                <td></td>
+                <td>R30</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td colspan="4" align="right">Total:</td>
+                <td>0</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+
+    <!-- Table 2 -->
+
+    <h1>Credit Card Details</h1>
+
+   <form action="">
+       <table border="1">
+        <tr>
+            <td colspan="3">Card Type:</td>
+        </tr>
+        <tr>
+            <td>
+                <input type="radio" name="creditCard" value="mastercard" id="mastercard">
+                <label for="mastercard">Mastercard</label>
+            </td>
+            <td>
+                Card Number
+            </td>
+            <td>
+                <input type="text" name="" id="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="radio" name="creditcard" value="visa" id="visa">
+                <label for="">Visa</label>
+            </td>
+            <td>
+                Expiry Date:
+            </td>
+            <td>
+                <input type="date" name="" id="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="radio" name="creditcard" id="americanexpress" value="americanexpress">
+                <label for="mastercard">American Express</label>
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                <input type="radio" name="creditcard" id="dinersclub" value="dinersclub">
+                <label for="mastercard">Diners Club</label>
+            </td>
+        </tr>
+       </table>
+       <br>
+       <br>
+       <button type="button">Send Order</button>
+       <button type="button">Clear Form</button>
+   </form>
+
+</body>
+</html>
